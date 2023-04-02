@@ -1,0 +1,23 @@
+
+Correctly Classified Instances        7778               63.1844 %
+Incorrectly Classified Instances      4532               36.8156 %
+Kappa statistic                          0.3369
+Mean absolute error                      0.3536
+Root mean squared error                  0.5809
+Relative absolute error                 86.6539 %
+Root relative squared error            128.6868 %
+Total Number of Instances            12310     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,502    0,044    0,967      0,502    0,661      0,429    0,888     0,941     ham
+                 0,956    0,498    0,434      0,956    0,597      0,429    0,890     0,749     spam
+Weighted Avg.    0,632    0,173    0,815      0,632    0,643      0,429    0,889     0,886     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4423 4379 |    a = ham
+  153 3355 |    b = spam
+
